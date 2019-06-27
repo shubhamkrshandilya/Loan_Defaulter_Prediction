@@ -1,0 +1,4 @@
+# Loan_Defaulter_Prediction
+Simple Linear model for classification problem
+We have dataset of shape (39717,111) where 39717 is total row and 111 are total features. Here we have to pre-processed data because there are many redundant for eg- many column have all nan value some column have all same data in all row. When our pre-processing finished our dataset reduce to (39717, 31). We have to analyze our pre-processing data first seperate label and features And divide whole dataset into two parts testing and for training. Here we have .33 percent of whole dataset as testing file and remaining as training part. Then we tried different model for training and we see that for these best is <bold>Logistic Regression</bold> .
+Here our label consist of  Charged off, Current , Fully Paid. We can consider Current and Fully Paid as Non Defaulter and Charged off as Defaulter.
